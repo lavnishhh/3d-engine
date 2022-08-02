@@ -1,10 +1,12 @@
 from math import tan,sin
 import cv2
 import numpy as np
-from math_func import *
-from objects import *
 import time
 import keyboard
+
+#self written modules
+from math_func import *
+from objects import *
 
 cam_pos=[-100,0,10]
 cam_rot=0
